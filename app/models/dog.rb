@@ -6,7 +6,7 @@ class Dog
   
   def initialize(name, breed, age)
     
-    self << @@all
+    @@all << self
     
   end
   
